@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Supermercado.iml" filepath="$PROJECT_DIR$/Supermercado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Supermercado_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Supermercado_integrationTest.iml" group="Supermercado" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Supermercado_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Supermercado_main.iml" group="Supermercado" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Supermercado_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Supermercado_test.iml" group="Supermercado" />
+    </modules>
+  </component>
+</project>
