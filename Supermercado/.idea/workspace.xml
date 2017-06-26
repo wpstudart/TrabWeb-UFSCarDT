@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e17c01e-268e-4736-b0ad-e323d64d4daa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/Carrinho.groovy" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_ehcache_ehcache_2_10_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_grails_plugins_spring_security_core_3_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_core_4_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_web_4_0_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___supermercado___Supermercado_0_1_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___supermercado___Supermercado_0_1_war__exploded_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Supermercado_integrationTest.iml" afterPath="$PROJECT_DIR$/.idea/modules/Supermercado_integrationTest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Supermercado_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Supermercado_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Supermercado_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Supermercado_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/Compra.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/Compra.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/Fornecedor.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/Fornecedor.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/Pessoa.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/Pessoa.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -38,11 +43,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Compra.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Compra.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/Compra.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="54" column="59" lean-forward="false" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FuncionarioPapel.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/FuncionarioPapel.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -55,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/Produto.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -409,7 +437,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4494510784000" />
+        <entry key="$PROJECT_DIR$" value="4494845424000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="785829219" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -732,6 +761,7 @@
         <option value="$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/Fornecedor.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/Carrinho.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/Compra.groovy" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -746,7 +776,9 @@
     <option name="width" value="1440" />
     <option name="height" value="822" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -1287,12 +1319,12 @@
       <updated>1498170708983</updated>
       <workItem from="1498170710229" duration="615000" />
       <workItem from="1498421373041" duration="632000" />
-      <workItem from="1498498908595" duration="3282000" />
+      <workItem from="1498498908595" duration="3830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4529000" />
+    <option name="totallyTimeSpent" value="5077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="822" extended-state="6" />
@@ -1360,6 +1392,7 @@
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-taglib/3.1.4/e2511cce48a789aa86caa09ee8a5c1d03d5f2629/grails-taglib-3.1.4.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.1.4/d5c357f21eb53bd8133cb5e975544538976811ad/grails-web-common-3.1.4.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.1.4/6230a8dcb4e2b53c05f854296d3f6f178673ce74/grails-web-3.1.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/spring-security-core/3.1.2/ca54acbad681d79bd545373db6dac234a637009f/spring-security-core-3.1.2.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/3.1.4/32198b8c42f974d9ce620ab2a68d46d899c5cb07/grails-core-3.1.4.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.1.4/cdd2738bda604af76bcbebb9a2aa46bebce21d7c/grails-plugin-services-3.1.4.jar!/META-INF/grails.factories" />
                 </list>
@@ -1375,6 +1408,7 @@
                             <option value="grails.artefact.AsyncController" />
                             <option value="grails.artefact.gsp.TagLibraryInvoker" />
                             <option value="grails.artefact.controller.RestResponder" />
+                            <option value="grails.plugin.springsecurity.ControllerMixin" />
                           </list>
                         </value>
                       </entry>
@@ -1445,6 +1479,7 @@
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-taglib/3.1.4/e2511cce48a789aa86caa09ee8a5c1d03d5f2629/grails-taglib-3.1.4.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.1.4/d5c357f21eb53bd8133cb5e975544538976811ad/grails-web-common-3.1.4.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.1.4/6230a8dcb4e2b53c05f854296d3f6f178673ce74/grails-web-3.1.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/spring-security-core/3.1.2/ca54acbad681d79bd545373db6dac234a637009f/spring-security-core-3.1.2.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/3.1.4/32198b8c42f974d9ce620ab2a68d46d899c5cb07/grails-core-3.1.4.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.1.4/cdd2738bda604af76bcbebb9a2aa46bebce21d7c/grails-plugin-services-3.1.4.jar!/META-INF/grails.factories" />
                 </list>
@@ -1460,6 +1495,7 @@
                             <option value="grails.artefact.AsyncController" />
                             <option value="grails.artefact.gsp.TagLibraryInvoker" />
                             <option value="grails.artefact.controller.RestResponder" />
+                            <option value="grails.plugin.springsecurity.ControllerMixin" />
                           </list>
                         </value>
                       </entry>
@@ -1531,6 +1567,7 @@
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-taglib/3.1.4/e2511cce48a789aa86caa09ee8a5c1d03d5f2629/grails-taglib-3.1.4.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.1.4/d5c357f21eb53bd8133cb5e975544538976811ad/grails-web-common-3.1.4.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.1.4/6230a8dcb4e2b53c05f854296d3f6f178673ce74/grails-web-3.1.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/spring-security-core/3.1.2/ca54acbad681d79bd545373db6dac234a637009f/spring-security-core-3.1.2.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/3.1.4/32198b8c42f974d9ce620ab2a68d46d899c5cb07/grails-core-3.1.4.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.1.4/cdd2738bda604af76bcbebb9a2aa46bebce21d7c/grails-plugin-services-3.1.4.jar!/META-INF/grails.factories" />
                 </list>
@@ -1546,6 +1583,7 @@
                             <option value="grails.artefact.AsyncController" />
                             <option value="grails.artefact.gsp.TagLibraryInvoker" />
                             <option value="grails.artefact.controller.RestResponder" />
+                            <option value="grails.plugin.springsecurity.ControllerMixin" />
                           </list>
                         </value>
                       </entry>
@@ -1677,7 +1715,7 @@
     <entry file="file://$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/Produto.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1721,7 +1759,26 @@
     <entry file="file://$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/Compra.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="54" column="59" lean-forward="false" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/br/ufscar/dc/dsw/FuncionarioPapel.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>
