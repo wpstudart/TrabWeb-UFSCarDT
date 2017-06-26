@@ -1,7 +1,8 @@
 package br.ufscar.dc.dsw
 
-class Funcionario {
+class Funcionario extends Pessoa {
 
     static constraints = {
+        salario(min:new Float(0.01))
     }
 }
