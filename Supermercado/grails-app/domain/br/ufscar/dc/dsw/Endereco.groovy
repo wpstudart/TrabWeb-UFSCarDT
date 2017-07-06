@@ -8,8 +8,6 @@ class Endereco {
         bairro(blank:false, size:1..20)
         logradouro(size:1..50)
         cep(blank:false, min:8)
-        cidade(blank:false, min:1..30)
-        estado(blank:false, min:1..20)
     }
 
     String rua
@@ -17,12 +15,12 @@ class Endereco {
     String bairro
     String logradouro
     String cep
-    String cidade
-    String estado
+    Cidade cidade
+    Estado estado
 
     String toString(){
         "[" + this.getClass().getSimpleName() + "] " + rua + ", " + numero + "\n" + bairro + ", " +
-                logradouro + "\n" + cep + "\n" + cidade + " - " + estado
+                logradouro + "\n" + cep + "\n" + cidade.toString() + " - " + estado
     }
 
 }

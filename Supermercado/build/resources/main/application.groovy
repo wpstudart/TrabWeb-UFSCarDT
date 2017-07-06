@@ -1,6 +1,7 @@
 
 
 // Added by the Spring Security Core plugin:
+grails.plugin.springsecurity.logout.postOnly = false
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'br.ufscar.dc.dsw.Funcionario'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'br.ufscar.dc.dsw.FuncionarioPapel'
 grails.plugin.springsecurity.authority.className = 'br.ufscar.dc.dsw.Papel'
@@ -16,6 +17,7 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/**/images/**',   access: ['permitAll']],
 	[pattern: '/**/favicon.ico', access: ['permitAll']]
 ]
+
 
 grails.plugin.springsecurity.filterChain.chainMap = [
 	[pattern: '/assets/**',      filters: 'none'],
