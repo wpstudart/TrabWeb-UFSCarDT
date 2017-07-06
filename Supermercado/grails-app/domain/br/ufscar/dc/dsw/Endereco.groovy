@@ -3,24 +3,26 @@ package br.ufscar.dc.dsw
 class Endereco {
 
     static constraints = {
-        rua(blank:false, size:1..40)
-        numero(blank:false, min:1)
+        numero(min:1)
         bairro(blank:false, size:1..20)
         logradouro(size:1..50)
-        cep(blank:false, min:8)
+        complemento(nullable: true, size:1..50)
+        cep(blank:false, cep: true, size: 9..9)
+        cidade(nullable: false)
     }
 
-    String rua
     int numero
     String bairro
     String logradouro
+    String complemento
     String cep
     Cidade cidade
     Estado estado
 
     String toString(){
-        "[" + this.getClass().getSimpleName() + "] " + rua + ", " + numero + "\n" + bairro + ", " +
-                logradouro + "\n" + cep + "\n" + cidade.toString() + " - " + estado
+        return "[" + this.getClass().getSimpleName() + "] " + logradouro + ", " + numero +
+                (complemento == null ? "" : " " + complemento) + ". " + bairro + "\n" + cep + " " + cidade + " - "
+                + estado.getSigla()
     }
 
 }

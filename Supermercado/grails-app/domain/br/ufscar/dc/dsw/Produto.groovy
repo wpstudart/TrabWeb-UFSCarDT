@@ -19,7 +19,7 @@ class Produto {
     String validadeProd
 
     String toString() {
-        "[" + this.getClass().getSimpleName() + "]" + nomeProd + ", " + valorProd + ", " + quantidade +
+        return "[" + this.getClass().getSimpleName() + "]" + nomeProd + ", " + valorProd + ", " + quantidade +
                 ", " + codProd + ", " + validadeProd
     }
 }

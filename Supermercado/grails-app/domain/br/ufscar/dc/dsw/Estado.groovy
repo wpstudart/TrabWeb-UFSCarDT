@@ -3,13 +3,18 @@ package br.ufscar.dc.dsw
 class Estado {
 
     static constraints = {
-        nomeEstado(blank: false, min: 4)
+        nomeEstado(blank: false, size: 1..20)
+        sigla(nullable: false, size: 2..2)
     }
 
     String nomeEstado
-    Cidade cidade
+    String sigla
+
+    String getSigla() {
+        return sigla
+    }
 
     String toString(){
-        "[" + this.getClass().getSimpleName() + "]" + nomeEstado
+        return "[" + this.getClass().getSimpleName() + "]" + nomeEstado
     }
 }

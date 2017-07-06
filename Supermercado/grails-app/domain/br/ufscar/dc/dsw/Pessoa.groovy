@@ -4,7 +4,7 @@ class Pessoa {
 
     static constraints = {
         nomePessoa(size:1..100)
-        sexoPessoa(size:1..15)
+        sexoPessoa(inList:["F", "M"])
         CPF(min:11)
     }
 
