@@ -8,4 +8,7 @@ class Compra {
         total(blank: false)
         numItens(blank: false)
     }
+
+    float total
+    double numItens
 }

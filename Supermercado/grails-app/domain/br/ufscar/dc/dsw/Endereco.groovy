@@ -7,7 +7,7 @@ class Endereco {
         bairro(blank:false, size:1..20)
         logradouro(size:1..50)
         complemento(nullable: true, size:1..50)
-        cep(blank:false, cep: true, size: 9..9)
+        cep(blank:false,  size: 9..9)
         cidade(nullable: false)
     }
 
@@ -17,12 +17,11 @@ class Endereco {
     String complemento
     String cep
     Cidade cidade
-    Estado estado
+    //Estado estado
 
     String toString(){
         return "[" + this.getClass().getSimpleName() + "] " + logradouro + ", " + numero +
-                (complemento == null ? "" : " " + complemento) + ". " + bairro + "\n" + cep + " " + cidade + " - "
-                + estado.getSigla()
+                (complemento == null ? "" : " " + complemento) + ". " + bairro + "\n" + cep + " " + cidade //+ " - " + estado.getSigla()
     }
 
 }

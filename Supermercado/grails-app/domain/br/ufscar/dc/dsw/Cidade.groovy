@@ -4,6 +4,7 @@ class Cidade {
 
     static constraints = {
         nomeCidade(blank: false, size: 1 .. 30)
+        estado(nullable: false)
     }
 
     String nomeCidade

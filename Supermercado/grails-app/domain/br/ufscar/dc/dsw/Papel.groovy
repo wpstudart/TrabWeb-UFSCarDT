@@ -1,8 +1,8 @@
 package br.ufscar.dc.dsw
 
+import grails.compiler.GrailsCompileStatic
 import groovy.transform.EqualsAndHashCode
 import groovy.transform.ToString
-import grails.compiler.GrailsCompileStatic
 
 @GrailsCompileStatic
 @EqualsAndHashCode(includes='authority')

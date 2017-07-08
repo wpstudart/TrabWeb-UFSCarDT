@@ -1,7 +1,8 @@
 package br.ufscar.dc.dsw
 
-import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
+
+import static org.springframework.http.HttpStatus.*
 
 @Transactional(readOnly = true)
 class CompraController {

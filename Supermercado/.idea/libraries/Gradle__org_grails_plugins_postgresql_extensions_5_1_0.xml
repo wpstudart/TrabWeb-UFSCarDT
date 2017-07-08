@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.grails.plugins:postgresql-extensions:5.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/postgresql-extensions/5.1.0/72f2ebe113d5a6c5d96e43ec07899c7557908314/postgresql-extensions-5.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/postgresql-extensions/5.1.0/ded7302863b03c0fbf5061d4a65370818b96f3b9/postgresql-extensions-5.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

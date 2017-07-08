@@ -6,7 +6,8 @@ class Fornecedor {
 
     static constraints = {
         nome(blank:false, size:1..100)
-        cnpj (blank:false, unique:true, cnpj:true, size:18..18)
+        cnpj (blank:false, unique:true, size:18..18)
+        endereco(nullable: false)
     }
 
     String nome

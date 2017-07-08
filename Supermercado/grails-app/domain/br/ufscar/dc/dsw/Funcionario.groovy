@@ -5,7 +5,7 @@ import groovy.transform.ToString
 
 @EqualsAndHashCode(includes='username')
 @ToString(includes='username', includeNames=true, includePackage=false)
-class Funcionario implements Serializable {
+class Funcionario extends Pessoa implements Serializable {
 
 	static hasMany = [compras: Compra]
 

@@ -9,14 +9,14 @@ class Produto {
         valorProd(min:new Float(0.01))
         quantidade(min:0)
         codProd(min:0)
-        validadeProd(size:1..10)
+        validadeProd(nullable: false)
     }
 
     String nomeProd
     float valorProd
     int quantidade
     int codProd
-    String validadeProd
+    Date validadeProd
 
     String toString() {
         return "[" + this.getClass().getSimpleName() + "]" + nomeProd + ", " + valorProd + ", " + quantidade +
