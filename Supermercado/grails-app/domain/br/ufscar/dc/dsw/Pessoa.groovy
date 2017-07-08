@@ -11,7 +11,7 @@ class Pessoa {
     int CPF
     String nomePessoa
     String sexoPessoa
-    //Endereco endereco
+    Endereco endereco
 
     String toString(){
         "[" + this.getClass().getSimpleName() + "]" + nomePessoa + ", " + CPF + ", " + sexoPessoa
