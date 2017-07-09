@@ -11,4 +11,6 @@ class Compra {
 
     float total
     double numItens
+    Produto produto
+
 }
