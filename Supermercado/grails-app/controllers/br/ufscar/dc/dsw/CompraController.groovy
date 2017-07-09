@@ -1,10 +1,12 @@
 package br.ufscar.dc.dsw
 
 import grails.transaction.Transactional
+import org.springframework.security.access.annotation.Secured
 
 import static org.springframework.http.HttpStatus.*
 
 @Transactional(readOnly = true)
+@Secured(['ROLE_USER', 'ROLE_ADMIN'])
 class CompraController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
@@ -14,6 +16,7 @@ class CompraController {
         respond Compra.list(params), model:[compraCount: Compra.count()]
     }
 
+    @Secured(['ROLE_USER'])
     def show(Compra compra) {
         respond compra
     }

@@ -123,4 +123,3 @@ endpoints:
 
 server:
     port: 8090
-    

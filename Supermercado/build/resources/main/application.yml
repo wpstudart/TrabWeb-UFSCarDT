@@ -56,9 +56,9 @@ grails:
             proxies: false
 info:
     app:
-        name: 'Supermercado'
-        version: '0.1'
-        grailsVersion: '3.1.4'
+        name: '@info.app.name@'
+        version: '@info.app.version@'
+        grailsVersion: '@info.app.grailsVersion@'
 spring:
 
     groovy:
@@ -123,4 +123,3 @@ endpoints:
 
 server:
     port: 8090
-    

@@ -123,6 +123,8 @@ class BootStrap {
             println messias.errors
         }
 
+        FuncionarioPapel.create(messias, funcPapel)
+
         println 'Populando usuario vacilao, ops, Messias - ok'
 
         def fornecedorPrincipal = new Fornecedor(
@@ -181,7 +183,6 @@ class BootStrap {
         }
 
         println 'Populando compra inicial - ok'
-
 
     }
     def destroy = {

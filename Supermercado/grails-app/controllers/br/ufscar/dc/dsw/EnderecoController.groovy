@@ -6,7 +6,7 @@ import org.springframework.security.access.annotation.Secured
 import static org.springframework.http.HttpStatus.*
 
 @Transactional(readOnly = true)
-@Secured ('ROLE_USER')
+@Secured (['ROLE_USER', 'ROLE_ADMIN'])
 class EnderecoController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]

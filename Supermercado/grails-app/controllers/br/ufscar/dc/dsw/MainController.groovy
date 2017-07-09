@@ -11,10 +11,14 @@ class MainController {
 
         def usuario = springSecurityService.getCurrentUser()
         def authority = usuario.getAuthorities()[0].getAuthority()
+        //def userName = springSecurityService.authentication.principal.getUsername()
         session.usuario = usuario
 
+        // ROLE_USER se funcionário, ROLE_ADMIN caso gerente
         if(authority.equals('ROLE_USER')){
-            redirect(controller: "funcionario")
+            redirect(controller: "compra")
+            // Não pode redirecionar para uma view
+            // redirect(view: "index")
         } else {
             redirect(controller: "funcionario")
         }
