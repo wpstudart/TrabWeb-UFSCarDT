@@ -4,7 +4,7 @@ class BootStrap {
 
     def init = { servletContext ->
 
-        def saoPaulo = new Estado(sigla: 'SP', nome: 'São Paulo')
+        def saoPaulo = new Estado(sigla: 'SP', nomeEstado: 'São Paulo')
 
         saoPaulo.save()
         if(saoPaulo.hasErrors()){
@@ -13,14 +13,14 @@ class BootStrap {
 
         println 'Populando Estados - ok'
 
-        def saoCarlos = new Cidade(nome: 'São Carlos', estado: saoPaulo)
+        def saoCarlos = new Cidade(nomeCidade: 'São Carlos', estado: saoPaulo)
 
         saoCarlos.save()
         if(saoCarlos.hasErrors()){
             println saoCarlos.errors
         }
 
-        def saoPauloCidade = new Cidade(nome: 'São Paulo', estado: saoPaulo)
+        def saoPauloCidade = new Cidade(nomeCidade: 'São Paulo', estado: saoPaulo)
 
         saoPauloCidade.save()
         if (saoPauloCidade.hasErrors()){
@@ -90,7 +90,7 @@ class BootStrap {
                 nomePessoa: "Gerente",
                 enabled: true,
                 sexoPessoa: "M",
-                CPF: "14410234536",
+                cpf: "14410234536",
                 salario: 1000.0,
                 endereco: enderecoAdmin
         )
@@ -113,7 +113,7 @@ class BootStrap {
                 nomePessoa: 'Messias',
                 enabled: true,
                 sexoPessoa: 'M',
-                CPF: '89185358215',
+                cpf: '89185358215',
                 salario: 50.0,
                 endereco: enderecoFuncionario
         )
@@ -127,7 +127,7 @@ class BootStrap {
 
         def fornecedorPrincipal = new Fornecedor(
                 nome: 'UFSCar',
-                CNPJ: '09073204000127',
+                cnpj: '09073204000127',
                 endereco: enderecoFornecedor
         )
 
@@ -139,9 +139,9 @@ class BootStrap {
         println 'Populando Fornecedor Principal - ok'
 
         def clientePrincipal = new Cliente(
-                nome: 'July',
+                nomePessoa: 'July',
                 sexoPessoa: 'M',
-                CPF: '55793030174',
+                cpf: '55793030174',
                 endereco: enderecoCliente,
                 dataAniversario: new Date()
         )

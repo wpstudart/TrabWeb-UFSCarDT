@@ -7,7 +7,7 @@ class Endereco {
         bairro(blank:false, size:1..20)
         logradouro(size:1..50)
         complemento(nullable: true, size:1..50)
-        cep(blank:false,  size: 9..9)
+        cep(blank:false)
         cidade(nullable: false)
     }
 

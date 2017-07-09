@@ -6,12 +6,12 @@ class Fornecedor {
 
     static constraints = {
         nome(blank:false, size:1..100)
-        cnpj (blank:false, unique:true, size:18..18)
+        cnpj (blank:false, unique:true)
         endereco(nullable: false)
     }
 
     String nome
-    String CNPJ
+    String cnpj
     Endereco endereco
 
     String toString(){
