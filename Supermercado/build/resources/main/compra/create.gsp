@@ -19,7 +19,7 @@
             <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
             </g:if>
-            <a href="/produto/create?compra.id="><div>Add Produto</div></a>
+            <a href="/produto/create?compra.id=">Add Produto</a>
             <g:hasErrors bean="${this.compra}">
             <ul class="errors" role="alert">
                 <g:eachError bean="${this.compra}" var="error">

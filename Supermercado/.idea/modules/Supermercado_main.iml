@@ -7,20 +7,6 @@
           <root url="file://$MODULE_DIR$/../../src/main/webapp" relative="/" />
           <root url="file://$MODULE_DIR$/../../build/assets" relative="/assets" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/../../src/main/java" />
-          <root url="file://$MODULE_DIR$/../../grails-app/init" />
-          <root url="file://$MODULE_DIR$/../../grails-app/services" />
-          <root url="file://$MODULE_DIR$/../../src/main/groovy" />
-          <root url="file://$MODULE_DIR$/../../src/main/resources" />
-          <root url="file://$MODULE_DIR$/../../grails-app/controllers" />
-          <root url="file://$MODULE_DIR$/../../grails-app/conf" />
-          <root url="file://$MODULE_DIR$/../../grails-app/domain" />
-          <root url="file://$MODULE_DIR$/../../grails-app/i18n" />
-          <root url="file://$MODULE_DIR$/../../grails-app/taglib" />
-          <root url="file://$MODULE_DIR$/../../grails-app/views" />
-          <root url="file://$MODULE_DIR$/../../grails-app/utils" />
-        </sourceRoots>
       </configuration>
     </facet>
   </component>

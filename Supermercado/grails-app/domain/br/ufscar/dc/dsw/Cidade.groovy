@@ -11,6 +11,6 @@ class Cidade {
     Estado estado
 
     String toString(){
-        return "[" + this.getClass().getSimpleName() + "]" + nomeCidade + estado.getSigla()
+        return "[" + this.getClass().getSimpleName() + "]" + nomeCidade
     }
 }

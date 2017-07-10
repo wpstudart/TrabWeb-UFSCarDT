@@ -2,7 +2,7 @@ package br.ufscar.dc.dsw
 
 class Fornecedor {
 
-    static hasMany = [produtos: Produto]
+    static hasMany = [produto: Produto]
 
     static constraints = {
         nome(blank:false, size:1..100)

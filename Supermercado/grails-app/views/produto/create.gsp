@@ -18,6 +18,7 @@
             <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
             </g:if>
+            <a href="/fornecedor/create?produto.id=">Add Fornecedor</a>
             <g:hasErrors bean="${this.produto}">
             <ul class="errors" role="alert">
                 <g:eachError bean="${this.produto}" var="error">
