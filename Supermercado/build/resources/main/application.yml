@@ -9,7 +9,6 @@ hibernate:
 dataSource:
     pooled: true
     jmxExport: true
-
     driverClassName: org.postgresql.Driver
     username: root
     password: root

@@ -8,7 +8,7 @@ class Produto {
         nomeProd(blank:false, size:1..50)
         valorProd(min:new Float(0.01))
         quantidade(min:0)
-        codProd(min:0)
+        codProd(min:0, unique: true)
         validadeProd(nullable: false)
     }
 
